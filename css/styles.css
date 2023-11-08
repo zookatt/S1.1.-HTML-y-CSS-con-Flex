@@ -21,6 +21,21 @@ header .sup .flex-container div {
     height: 20px;
 }
 
+header .sup .flex-container div:first-child{
+    cursor: pointer;
+    transition: 0.5s;
+    transform-origin: center;
+    
+}
+
+header .sup .flex-container div:first-child:hover {
+    transform: scale(1.2); 
+    background-color: rgb(97, 12, 94); 
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
 header .sup .flex-container div:first-child,
 header .sup .flex-container div:last-child {
     width: 40%;
@@ -164,7 +179,7 @@ footer {
     body {
         background-color: red;
       }
-      
+
     header .sup {
         background-color: rgb(52, 62, 92);
     }
